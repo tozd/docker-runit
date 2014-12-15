@@ -1,7 +1,7 @@
 FROM tozd/base
 
 RUN apt-get update -q -q && \
- apt-get install runit --yes --force-yes
+ apt-get install --yes --force-yes runit
 
 COPY ./runsvdir-start /usr/local/sbin/runsvdir-start
 
