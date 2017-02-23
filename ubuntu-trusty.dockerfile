@@ -1,4 +1,4 @@
-FROM tozd/base
+FROM tozd/base:trusty
 
 RUN apt-get update -q -q && \
  apt-get install --yes --force-yes runit
