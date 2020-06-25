@@ -1,6 +1,6 @@
-# tozd/empty
+# tozd/runit
 
-<https://gitlab.com/tozd/docker/empty>
+<https://gitlab.com/tozd/docker/runit>
 
 An image using [runit](http://smarden.org/runit/) for service supervision.
 
