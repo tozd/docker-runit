@@ -8,3 +8,8 @@ It can serve as a good base image for other Docker images.
 
 In short, to create a service create `/etc/service/<name>/run` script which at the end
 `exec`s into the service executable you want to run (and supervise to keep running).
+
+All images are rebuild daily to get any latest (security) updates from
+the underlying distribution.
+If you do the same in your image (which extends any of these images), you will
+get those updates as well.
