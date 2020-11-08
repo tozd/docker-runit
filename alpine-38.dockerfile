@@ -1,4 +1,4 @@
-FROM tozd/base:alpine-38
+FROM registry.gitlab.com/tozd/docker/base:alpine-38
 
 RUN apk add --no-cache runit
 

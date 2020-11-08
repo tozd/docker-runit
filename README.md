@@ -2,6 +2,13 @@
 
 <https://gitlab.com/tozd/docker/runit>
 
+Available as:
+
+* [`tozd/runit`](https://hub.docker.com/r/tozd/runit)
+* [`registry.gitlab.com/tozd/docker/runit`](https://gitlab.com/tozd/docker/runit/container_registry)
+
+## Description
+
 An image using [runit](http://smarden.org/runit/) for service supervision.
 
 It can serve as a good base image for other Docker images.

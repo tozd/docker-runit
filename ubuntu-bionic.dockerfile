@@ -1,4 +1,4 @@
-FROM tozd/base:ubuntu-bionic
+FROM registry.gitlab.com/tozd/docker/base:ubuntu-bionic
 
 RUN apt-get update -q -q && \
  apt-get install --yes --force-yes runit && \
