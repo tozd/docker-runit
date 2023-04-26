@@ -7,6 +7,10 @@ Available as:
 - [`tozd/runit`](https://hub.docker.com/r/tozd/runit)
 - [`registry.gitlab.com/tozd/docker/runit`](https://gitlab.com/tozd/docker/runit/container_registry)
 
+## Image hierarchy
+
+[`tozd/base`](https://gitlab.com/tozd/docker/base) ← `tozd/runit`
+
 ## Description
 
 An image using [runit](http://smarden.org/runit/) for service supervision.
