@@ -7,15 +7,30 @@ Available as:
 - [`tozd/runit`](https://hub.docker.com/r/tozd/runit)
 - [`registry.gitlab.com/tozd/docker/runit`](https://gitlab.com/tozd/docker/runit/container_registry)
 
-## Image hierarchy
+## Image inheritance
 
 [`tozd/base`](https://gitlab.com/tozd/docker/base) ← `tozd/runit`
+
+## Tags
+
+- `ubuntu-trusty`: runit 2.1.1
+- `ubuntu-xenial`: runit 2.1.2
+- `ubuntu-bionic`: runit 2.1.2
+- `ubuntu-focal`: runit 2.1.2
+- `ubuntu-jammy`: runit 2.1.2
+- `alpine-38`: runit 2.1.2
+- `alpine-310`: runit 2.1.2
+- `alpine-312`: runit 2.1.2
+- `alpine-314`: runit 2.1.2
+- `alpine-316`: runit 2.1.2
 
 ## Description
 
 An image using [runit](http://smarden.org/runit/) for service supervision.
 
 It can serve as a good base image for other Docker images.
+
+It sets Docker image entrypoint so runit is run automatically.
 
 In short, to create a service create `/etc/service/<name>/run` script which at the end
 `exec`s into the service executable you want to run (and supervise to keep running).
