@@ -4,8 +4,8 @@
 
 Available as:
 
-* [`tozd/runit`](https://hub.docker.com/r/tozd/runit)
-* [`registry.gitlab.com/tozd/docker/runit`](https://gitlab.com/tozd/docker/runit/container_registry)
+- [`tozd/runit`](https://hub.docker.com/r/tozd/runit)
+- [`registry.gitlab.com/tozd/docker/runit`](https://gitlab.com/tozd/docker/runit/container_registry)
 
 ## Description
 
