@@ -2,6 +2,9 @@
 
 <https://gitlab.com/tozd/docker/runit>
 
+**DEPRECATED**: Use [tozd/dinit](https://gitlab.com/tozd/docker/dinit) instead. See
+[this issue for more details](https://gitlab.com/tozd/docker/runit/-/issues/1).
+
 Available as:
 
 - [`tozd/runit`](https://hub.docker.com/r/tozd/runit)
