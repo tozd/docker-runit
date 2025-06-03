@@ -21,11 +21,15 @@ Available as:
 - `ubuntu-bionic`: runit 2.1.2
 - `ubuntu-focal`: runit 2.1.2
 - `ubuntu-jammy`: runit 2.1.2
+- `ubuntu-noble`: runit 2.1.2
 - `alpine-38`: runit 2.1.2
 - `alpine-310`: runit 2.1.2
 - `alpine-312`: runit 2.1.2
 - `alpine-314`: runit 2.1.2
 - `alpine-316`: runit 2.1.2
+- `alpine-318`: runit 2.1.2
+- `alpine-320`: runit 2.1.2
+- `alpine-322`: runit 2.1.2
 
 ## Description
 
